@@ -15,7 +15,7 @@ const About = () => {
     setIsVideoPlaying(false)
   }
   return (
-    <div id='about' className='bg-[#f7f8fc] pb-16 pt-20'>
+    <div id='about' className='bg-[#EDF4F2] pb-16 pt-20'>
       <div className='container mx-auto'>
       <div className='py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8'>
          {/* left side */}
@@ -26,7 +26,7 @@ const About = () => {
               <img src={thumbnailImg} alt="video thumbnail" className='w-full md:h-[446px] h-auto rounded-lg object-cover'/>
               <button 
               onClick={handleVideoPlay}
-              className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-600 p-3 rounded-full shadow-lg cursor-pointer'><FaPlayCircle className='size-12 text-white'/></button>
+              className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#223A5E] p-3 rounded-full shadow-lg cursor-pointer'><FaPlayCircle className='size-12 text-white'/></button>
             </div>
           ) : (null)
          }
@@ -35,7 +35,7 @@ const About = () => {
          <div className='md:w-1/2 w-full'>
          <h2 className='text-4x1 text-lg font-serif font-bold mb-4 md:w-3/5 leading-snug'>Start Your Journey to Mental Wellness</h2>
         <p className='mb-10 md:pr-8'>We lower our stress levels, we get to know our pain, we connect better, we improve our focus, and we're kinder to ourselves. let us walk through the basics in our new mindful guide on how to meditate.</p>
-        <button className='bg-green-600 text-white py-3.5 px-8 font-medium rounded hover:bg-green-600/90'>
+        <button className=' bg-[#223A5E] text-white py-3.5 px-8 font-medium rounded hover:bg-[#223A5E]/80'>
             <a href="#contact" className='flex gap-1 items-center'>
                 <span>Get Started</span>
                 <FaCircleArrowRight />

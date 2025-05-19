@@ -6,14 +6,14 @@ body{
     scroll-behavior: smooth;
 }
 .isActive{
-    color: #06a055 !important;
+    color: white !important;
 }
 .react-tabs {
     -webkit-tap-highlight-color: transparent;
   }
   
   .react-tabs__tab-list {
-    border-bottom: 1px solid #06a055;
+    border-bottom: 1px solid white;
     margin: 0 0 10px;
     padding: 0;
   }
@@ -32,7 +32,7 @@ body{
   
   .react-tabs__tab--selected {
     background: #fff;
-    border: 1px solid #06a055 !important;
+    border: 1px solid white !important;
     color: black;
     border-radius: 5px;
     outline: none;

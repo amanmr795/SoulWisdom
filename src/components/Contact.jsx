@@ -71,7 +71,7 @@ const Contact = () => {
                 <textarea 
                 rows = "4"
                 name="" id="" placeholder='Write your message...' className='w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 shadow'></textarea>
-                <button type='submit' className='w-full p-3 bg-green-600 text-white rounded-md hover:bg-green-600/90'>Send Message</button>
+                <button type='submit' className='w-full p-3 bg-[#223A5E] text-white rounded-md hover:bg-[#223A5E]/80'>Send Message</button>
             </form>
           </div>
         </div>

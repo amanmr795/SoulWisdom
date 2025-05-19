@@ -46,7 +46,7 @@ const Pricing = () => {
     }
     }
   return (
-    <div id='pricing' className='bg-[#f7f8fc] pt-32'>
+    <div id='pricing' className='bg-[#EDF4F2] pt-32'>
       <div className='container mx-auto px-8'>
         <div className='text-center mb-12'>
           <h2 className='text-4xl font-bold font-serif mb-3'>Perfect for Small & Large Brands</h2>
@@ -57,9 +57,9 @@ const Pricing = () => {
         <div className='flex flex-col md:w-11/12 mx-auto md:flex-row gap-6 pb-12'>
           {
             packages.map((pkg, index) => (
-              <div key={index} className='bg-white rounded-lg p-6 flex-1 shadow-lg'>
+              <div key={index} className='bg-white/80 rounded-lg p-6 flex-1 shadow-lg'>
                 <h3 className='text-2xl font-semibold mb-4'>{pkg.name}</h3>
-                <hr className='w-24 border text-green-600 border-green-600' />
+                <hr className='w-24 border text-[#223A5E] border-[#223A5E]' />
                 <p className='text-3xl font-bold mb-4'>{pkg.price} <span className='text-lg font-normal'>/mo</span></p>
                 <p className='text-lg mb-4'>{pkg.description}</p>
                 <ul className='list-disc list-inside space-y-2 mb-6'>
@@ -71,7 +71,7 @@ const Pricing = () => {
                 </ul>
                 <button
                 onClick={handleScrollToContact}
-                className='bg-green-600 text-white px-4 py-2 rounded'>Get Started</button>
+                className='bg-[#223A5E] text-white px-4 py-2 rounded'>Get Started</button>
               </div>
             ))
           }

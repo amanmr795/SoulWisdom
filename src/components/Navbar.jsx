@@ -103,12 +103,12 @@ const Navbar = () => {
         </ul>
     )
   return (
-    <header className='bg-indigo-950 text-white py-6 px-4 fixed top-0 left-0 right-0 z-10'>
+    <header className='bg-[#2F3E46] text-white py-6 px-4 fixed top-0 left-0 right-0 z-10'>
       <div className='container mx-auto flex justify-between items-center h-full'>
         {/* logo */}
         <div >
             <a href="">
-                <img src="/logo.svg" alt="logo" />
+                <div className='text-white font-bold text-xl hover:bg-[#223A5E]/90'>SoulWisdom</div> 
             </a>
         </div>
 
@@ -125,7 +125,7 @@ const Navbar = () => {
                 e.preventDefault();
                 handleScrollTo('contact')
               }} 
-              href="#contact" className='text-white bg-green-600 hover:bg-green-600/90 px-4 py-2 rounded'>Contact Us</a>
+              href="#contact" className='text-white bg-[#223A5E] hover:bg-[#223A5E]/60 px-4 py-2 rounded'>Contact Us</a>
           </div>
 
           {/* hamburger menu */}
@@ -141,12 +141,12 @@ const Navbar = () => {
       {/* Mobile nav items */}
       {
         isOpen && (
-            <nav className='absolute top-full left-0 w-full bg-indigo-950 z-20 md:hidden'>
+            <nav className='absolute top-full left-0 w-full bg-[#2F3E46] z-20 md:hidden'>
                 <ul className='flex flex-col p-4 space-y-3'>
                     {navLink.props.children}
                     <li className='py-2 '>
                     <a href="#contact"
-                    className='text-white bg-green-600 hover:bg-green-600/90 px-4 py-2 rounded'
+                    className='text-white bg-[#223A5E] hover:bg-[#223A5E]/90 px-4 py-2 rounded'
                     onClick={(e)=>{
                         e.preventDefault();
                         handelCloseMenu();
