@@ -49,8 +49,8 @@ const Pricing = () => {
     <div id='pricing' className='bg-[#EDF4F2] pt-32'>
       <div className='container mx-auto px-8'>
         <div className='text-center mb-12'>
-          <h2 className='text-4xl font-bold font-serif mb-3'>Perfect for Small & Large Brands</h2>
-          <p className='text-lg mb-12 md:w-2/2 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae impedit accusantium mollitia laboriosam tempore nihil maiores quidem deserunt! In necessitatibus beatae, amet blanditiis labore expedita corporis, impedit quasi vitae vel quia, tempora error.</p>
+          <h2 className='text-4xl font-bold font-serif mb-3'>Choose Your Wellness Plan</h2>
+          <p className='text-lg mb-12 md:w-2/2 mx-auto'>Whether you're an individual seeking balance or a business building a culture of wellness, we have a plan designed to support your journey.</p>
         </div>
 
         {/* Package section */}
