@@ -1,18 +1,18 @@
 import React from 'react'
 import { BsFillChatQuoteFill } from "react-icons/bs";
-import review1 from "../assets/review1.webp"
-import review2 from "../assets/review2.webp"
+import review1 from "../assets/img.png"
+import review2 from "../assets/img_01.png"
 
 const  testimonials =[
   {
     name: 'Aman',
-    location: 'New York, NY',
+    location: 'Panchkula, HR',
     review: 'This service has been life-changing for me. The mental wellness resources and personalized support have made a huge difference in my daily life. Highly recommended!',
     image: review1,
   },
   {
     name: 'Aditya',
-    location: 'Los Angeles, CA',
+    location: 'Lucknow, UP',
     review: 'I’ve tried many wellness programs, but this one stands out. The expert webinars and one-on-one coaching have been incredibly valuable. I feel more balanced and focused than ever before.',
     image: review2,
   },
